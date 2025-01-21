@@ -1,3 +1,4 @@
+# data orchestration
 llama-index
 llama-index-vector-stores-qdrant
 llama-index-llms-ollama
@@ -5,4 +6,7 @@ llama-index-llms-openai
 llama-index-llms-anthropic
 llama-index-embeddings-huggingface
 llama-index-embeddings-ollama
+#
 python-dotenv
+# observability
+openlit
