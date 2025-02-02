@@ -1,0 +1,1 @@
+This image illustrates a document retrieval and query-response system. Documents are split into smaller chunks and converted into embeddings, which are stored in Qdrant as a vector store. Queries are processed using Meta Llama-3 and HyDE, generating query embeddings to perform similarity searches in Qdrant, retrieving relevant document embeddings for response synthesis.

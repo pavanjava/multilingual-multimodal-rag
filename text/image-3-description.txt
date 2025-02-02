@@ -1,0 +1,1 @@
+This diagram illustrates a workflow where users interact with a Spring AI system via two endpoints: /load to upload complex survey reports (PDFs) and /ask to query the data. The system uses Ollama for embedding generation and inference, with Qdrant serving as the vector store to store and retrieve document embeddings efficiently.
