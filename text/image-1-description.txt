@@ -1,0 +1,1 @@
+This image depicts a hybrid search architecture using both dense and sparse embedding models integrated with Qdrant for vector search. It includes an orchestrator and message queue (RabbitMQ) to handle user queries, retrieve context, and process responses via tool agents.

@@ -1,0 +1,26 @@
+[
+    {
+        "architecture_description": "This image depicts a hybrid search architecture using both dense and sparse embedding models integrated with Qdrant for vector search. It includes an orchestrator and message queue (RabbitMQ) to handle user queries, retrieve context, and process responses via tool agents.",
+        "architecture_image": "images/image-1.png"
+    },
+    {
+        "architecture_description": "This image illustrates a pipeline for a RAG (Retrieval-Augmented Generation) system. Data engineers process web documents, database records, and internal documents through a CDC (Change Data Capture) pipeline into the LlamaIndex-Qdrant Indexer, which saves indexes into MLflow for tracking and evaluation. Users interact with the RAG-Bot that uses the LlamaIndex-Qdrant retriever to fetch data from the indexed information for their queries.",
+        "architecture_image": "images/image-2.png"
+    },
+    {
+        "architecture_description": "This diagram illustrates a workflow where users interact with a Spring AI system via two endpoints: /load to upload complex survey reports (PDFs) and /ask to query the data. The system uses Ollama for embedding generation and inference, with Qdrant serving as the vector store to store and retrieve document embeddings efficiently.",
+        "architecture_image": "images/image-3.png"
+    },
+    {
+        "architecture_description": "This diagram showcases a document-based question-answering workflow. Input documents are processed to generate vector embeddings using Hugging Face's bge-small-en-v1.5 model, which are stored in Qdrant. When a user asks a question, the most relevant context is retrieved, reranked, and used by the Hugging Face Meta-Llama-3-8B model to synthesize a response for the user.",
+        "architecture_image": "images/image-4.png"
+    },
+    {
+        "architecture_description": "This image illustrates a document retrieval and query-response system. Documents are split into smaller chunks and converted into embeddings, which are stored in Qdrant as a vector store. Queries are processed using Meta Llama-3 and HyDE, generating query embeddings to perform similarity searches in Qdrant, retrieving relevant document embeddings for response synthesis.",
+        "architecture_image": "images/image-5.png"
+    },
+    {
+        "architecture_description": "This diagram outlines a system where financial documents (e.g., from Honeywell and GE) are parsed and indexed into Qdrant as a vector store. The LlamaIndex-based RAG (Retrieval-Augmented Generation) system uses query engine tools to retrieve relevant data from Qdrant in response to user queries, delivering context-aware responses via an agent interface.",
+        "architecture_image": "images/image-6.png"
+    }
+]

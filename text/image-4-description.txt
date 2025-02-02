@@ -1,0 +1,1 @@
+This diagram showcases a document-based question-answering workflow. Input documents are processed to generate vector embeddings using Hugging Face's bge-small-en-v1.5 model, which are stored in Qdrant. When a user asks a question, the most relevant context is retrieved, reranked, and used by the Hugging Face Meta-Llama-3-8B model to synthesize a response for the user.

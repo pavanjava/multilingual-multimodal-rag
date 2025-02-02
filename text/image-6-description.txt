@@ -1,0 +1,1 @@
+This diagram outlines a system where financial documents (e.g., from Honeywell and GE) are parsed and indexed into Qdrant as a vector store. The LlamaIndex-based RAG (Retrieval-Augmented Generation) system uses query engine tools to retrieve relevant data from Qdrant in response to user queries, delivering context-aware responses via an agent interface.
